@@ -1,12 +1,12 @@
 <script setup>
-
+  import AppHeader from './components/AppHeader.vue'
+  import AppFooter from './components/AppFooter.vue'
 </script>
 
 <template>
-  <header>
-    <h1>Hello world</h1>
-  </header>
-
+  <AppHeader/>
+  <p>Здесь будет карта</p>
+  <AppFooter/>
 </template>
 
 <style scoped>
