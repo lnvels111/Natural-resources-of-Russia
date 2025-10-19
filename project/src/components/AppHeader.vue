@@ -14,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #98FB98;
     position: sticky;
 }
 .header {
