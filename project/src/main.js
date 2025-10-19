@@ -1,10 +1,7 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 
 createApp(App).mount('#app')
-
 var map = L.map('map').setView([56.318234, 44.001817], 7.2);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
